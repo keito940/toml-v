@@ -1,5 +1,7 @@
 module toml
 
+import time
+
 pub type Object = Integer | Nil | Boolean | Float | Array | Table | OffsetDate | LocalDate | TimeStamp |
 
 pub struct Val {
@@ -28,6 +30,11 @@ mut:
 pub struct String {
 mut:
 	value string
+}
+
+pub struct TimeStamp{
+mut:
+	value Time
 }
 
 pub struct Array {
