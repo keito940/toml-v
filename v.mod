@@ -1,7 +1,7 @@
 #V Project#
 
 Module {
-	name: 'v-toml',
+	name: 'toml-v',
 	description: 'toml for V',
 	dependencies: []
 }
